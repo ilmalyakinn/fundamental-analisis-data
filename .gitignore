@@ -1,26 +1,39 @@
-# Python artifacts
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual environment
 venv/
-.env
+ENV/
+env/
 
-# Jupyter
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
 # Data files
-data/
-dashboard/main_data.csv
+data/*.csv
+dashboard/*.csv
 
-# OS files
+# Misc
 .DS_Store
-Thumbs.db
 
-# Logs
-*.log
-
-# Other
-*.sqlite3
+# Git
+.gitignore
